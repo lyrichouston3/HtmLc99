@@ -41,8 +41,7 @@ h3{
     background-color: #d8dc67;
     padding: 10px;
     text-shadow: 2px 2px 2px black;
-    border:12px single color #f298da
-    border-radius: 20px;
+    border:12px single #f298da
 }
 
 #container {
@@ -182,7 +181,7 @@ table {
 }
 
 td, tr {
-    border: 4px single color coral;
+    border: 4px single coral;
     padding: 10px;
     margin: 10px;
 }
