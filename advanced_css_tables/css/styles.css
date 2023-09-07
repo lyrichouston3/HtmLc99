@@ -41,7 +41,7 @@ h3{
     background-color: #d8dc67;
     padding: 10px;
     text-shadow: 2px 2px 2px black;
-    border:12px single #f29dac;
+    border:12px single color #f298da
     border-radius: 20px;
 }
 
@@ -182,7 +182,7 @@ table {
 }
 
 td, tr {
-    border: 4px single coral;
+    border: 4px single color coral;
     padding: 10px;
     margin: 10px;
 }
