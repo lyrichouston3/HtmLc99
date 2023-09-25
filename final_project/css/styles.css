@@ -1,8 +1,18 @@
 body {
-    background-color:#1b2254 ;
+    background-image:url(../images/stars.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
     color: #fdfdf5de;
     font-size: x-large;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+} 
+
+
+#home{
+    width: 46px;
+    height: 44px;
+    background: url(moon.gif) 0 0;
 }
 img { display:block;
       margin: 0 auto;
