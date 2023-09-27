@@ -283,16 +283,16 @@ margin: 75px 50px 50px 75px;}
     width: 90%;
 }
 
+.img5{ display:block;
+    margin: 0 auto;
+    width: 40%;
+}
+
 .audio{
    text-align: center
 }
 
 a {
     color: #E4CFC9;
-}
-
-#main_img_resize {
-    width: 40%
-
 }
 
