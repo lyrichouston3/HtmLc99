@@ -1,13 +1,17 @@
-body {
-    background-image:url(../images/stars.jpg);
+
+
+
+body 
+{
+    background-image:url(../images/wall5.png);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
     color: #E4CFC9;
     font-size: 170%;
-    font-family: myFirstFont;
+    
+   
 } 
-
 
 img { display:block;
       margin: 0 auto;
@@ -21,26 +25,38 @@ h1, h2, h3 {
 }
 
 h1{
-    font-size: 2.75em;
+    font-size: 3.8em;
     color: #E4CFC9;
+    font-family: 'Playfair', serif;
     
     
 }
 
 h2{
-    font-size: 3.0em;
+    font-size: 3.5em;
     color: #E4CFC9;
+    font-family: 'Playfair', serif;
+
 
 }
 
 h3{
     font-size: 2.3em;
     color:#E4CFC9;
+    font-family: 'Playfair', serif;
 }
 
 
+h4{
+    text-align: center;
+    font-size: 1.75em;
+    color:#E4CFC9;
+    font-family: 'Playfair', serif;
+    
+}
+
 #container {
-    background-color:#628293;
+    background-color:#1e2d5c;
 }
 
 nav {
@@ -92,11 +108,12 @@ main {
 
 footer {
     
-        background-color:#658bab;
+        background-color:#1e2d5c;
         text-align: center;
         padding: 40px 0;
         color: aliceblue;
         font-weight: bold;
+        font-family: 'Playfair Display', serif;
 }
 
 .button  {
@@ -142,7 +159,7 @@ nav li a {
     border-radius: 10px;
     margin: 0 10px;
     font-size: 1.42em;
-    font-family:myFirstFont;
+
 }
 
 main{
@@ -155,6 +172,7 @@ aside {
      margin: 10px;
      border: 9px solid #c1cad7;
     border-radius: 10px;
+    font-family: 'Playfair', serif;
 }
 
 section {
@@ -168,7 +186,7 @@ aside {
 
 
 .col img{
-    width: 55%;
+    width: 75%;
 
 }
 .button {
@@ -214,6 +232,7 @@ nav li a{
         padding: 10px;
         border-radius: 10px;
         width: 33%;
+        font-family: 'Fuggles', cursive;
 }
 
 }
@@ -227,18 +246,46 @@ section img {
 }
 
 .fontsize
-{font-size:  32px;}
+{font-size:  32px;
+margin: 75px 50px 50px 75px;
+}
 
 .fontsize2
-{font-size:  30px;}
+{font-size:  30px;
+margin: 75px 50px 50px 75px;}
  
 .fontsize3
-{font-size:  3.3em;}
+{font-size:  3.3em;
+    margin: 75px 50px 50px 75px;}
 
-@font-face {
-    font-family: myFirstFont;
-    src: url(Lora.zip);
+.fontsize4
+{font-size:  2.0em;}
+
+
+.img { display:block;
+    margin: 0 auto;
+    width: 55%;
 }
-div {
-    font-family: myFirstFont;
+
+.img2 { display:block;
+    margin: 0 auto;
+    width: 90%;
+}
+
+.img3{ display:block;
+    margin: 0 auto;
+    width: 90%;
+}
+
+.audio{
+   text-align: center
+}
+
+a {
+    color: #E4CFC9;
+}
+
+#main_img_resize {
+    width: 40%
+
 }
