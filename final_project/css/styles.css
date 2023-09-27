@@ -145,7 +145,7 @@ table{
 tr,
 td{
     border: 4px solid coral;}
-@media(min-width: 786px) 
+@media(min-width: 768px) 
 {
     nav li {
         display: inline-block;
@@ -183,6 +183,8 @@ aside {
     width: 30%;
 
 }
+}
+
 
 
 .col img{
@@ -225,6 +227,10 @@ nav li a{
 
 #lower_area {
     display: flex;
+    width: 100%;
+   
+}
+
 }
 .col{
         border: 6px solid#c1cad7;
@@ -232,15 +238,15 @@ nav li a{
         padding: 10px;
         border-radius: 10px;
         width: 33%;
-        font-family: 'Fuggles', cursive;
+       
 }
 
-}
+
 .single_page {
     width: 100%;
 }
 
-}
+
 section img {
     width: 65%;
 }
@@ -289,3 +295,4 @@ a {
     width: 40%
 
 }
+
