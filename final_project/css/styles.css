@@ -13,9 +13,11 @@ body
    
 } 
 
+video, audio 
 img { display:block;
-      margin: 0 auto;
-      width: 100%;
+      width:50%;
+      margin: 20px auto;
+   
 }
 
 h1, h2, h3 {
@@ -100,6 +102,7 @@ main {
     padding: 20px;
 }
 
+
 .col{
     padding: 10px;
     border-top: 4px solid #1b2254;
@@ -141,6 +144,9 @@ table{
     border:#1b2254;
 
 }
+main{
+    display: flex;
+}
 
 tr,
 td{
@@ -165,7 +171,6 @@ nav li a {
 main{
     display: flex;
 }
-
 section,
 aside {
      padding: 10px;
@@ -237,7 +242,7 @@ nav li a{
         margin: 10px;
         padding: 10px;
         border-radius: 10px;
-        width: 33%;
+      
        
 }
 
@@ -285,14 +290,15 @@ margin: 75px 50px 50px 75px;}
 
 .img5{ display:block;
     margin: 0 auto;
-    width: 40%;
+    width: 45%;
 }
 
-.audio{
-   text-align: center
+
+.img6{ display:block;
+    margin: 0 auto;
+    width: 33%;
 }
 
 a {
     color: #E4CFC9;
 }
-
